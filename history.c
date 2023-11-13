@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * get_history_file - gets the history file
- * @info: parameter struct
+ * get_history_file - get hostory
+ * @info: param
  *
- * Return: allocated string containg history file
+ * Return: return
  */
 
 char *get_history_file(info_t *info)
@@ -25,10 +25,10 @@ char *get_history_file(info_t *info)
 }
 
 /**
- * write_history - creates a file, or appends to an existing file
- * @info: the parameter struct
+ * write_history - write
+ * @info: the param
  *
- * Return: 1 on success, else -1
+ * Return: 1
  */
 int write_history(info_t *info)
 {
@@ -54,10 +54,10 @@ int write_history(info_t *info)
 }
 
 /**
- * read_history - reads history from file
- * @info: the parameter struct
+ * read_history - read
+ * @info: the param
  *
- * Return: histcount on success, 0 otherwise
+ * Return: return
  */
 int read_history(info_t *info)
 {
@@ -103,10 +103,9 @@ int read_history(info_t *info)
 }
 
 /**
- * build_history_list - adds entry to a history linked list
- * @info: Structure containing potential arguments. Used to maintain
- * @buf: buffer
- * @linecount: the history linecount, histcount
+ * build_history_list - keep hostory
+ * @info: Struct
+ * @linecount: count
  *
  * Return: Always 0
  */
@@ -124,10 +123,10 @@ int build_history_list(info_t *info, char *buf, int linecount)
 }
 
 /**
- * renumber_history - renumbers the history linked list after changes
- * @info: Structure containing potential arguments. Used to maintain
+ * renumber_history - num
+ * @info: Struct
  *
- * Return: the new histcount
+ * Return: return
  */
 int renumber_history(info_t *info)
 {

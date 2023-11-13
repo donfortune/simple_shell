@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * bfree - frees a pointer and NULLs the address
- * @ptr: address of the pointer to free
+ * bfree - free
+ * @ptr: add
  *
- * Return: 1 if freed, otherwise 0.
+ * Return: 1
  */
 int bfree(void **ptr)
 {
