@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * bfree - free
+ * bfree - free memory
  * @ptr: add
  *
  * Return: 1
