@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * list_len - length
+ * list_len - length of list
  * @h: node
  *
  * Return: return
@@ -19,7 +19,7 @@ size_t list_len(const list_t *h)
 }
 
 /**
- * list_to_strings - str
+ * list_to_strings - changing list to str
  * @head: argu
  *
  * Return: return
@@ -101,7 +101,7 @@ list_t *node_starts_with(list_t *node, char *prefix, char c)
 }
 
 /**
- * get_node_index - get index
+ * get_node_index - get index of a particular node
  * @head: head
  * @node: node
  *
