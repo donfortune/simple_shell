@@ -23,7 +23,7 @@ char *_strcpy(char *dest, char *src)
 }
 
 /**
- * _strdup - duplcates
+ * _strdup - duplcates string in newly allocated memory
  * @str: str
  *
  * Return: return
