@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * **strtow - split str
+ * **strtow - split str into several
  * @str: str
  * @d: delim
  * Return: return
