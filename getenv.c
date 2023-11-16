@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * get_environ - get env
+ * get_environ - get env var
  * @info: Struct
  * Return: Always 0
  */
@@ -17,7 +17,7 @@ char **get_environ(info_t *info)
 }
 
 /**
- * _unsetenv - Remove env
+ * _unsetenv - Remove env var
  * @info: Struct
  *  Return: 1
  * @var: var
@@ -48,7 +48,7 @@ int _unsetenv(info_t *info, char *var)
 }
 
 /**
- * _setenv - set env
+ * _setenv - set env var
  * @info: Struct
  * @var: var
  * @value: value
