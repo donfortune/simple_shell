@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- **_memset - memory
+ **_memset - set bytes in memory to  a particular char
  *@s: str
  *@b: byte
  *@n: node
@@ -17,7 +17,7 @@ char *_memset(char *s, char b, unsigned int n)
 }
 
 /**
- * ffree - free
+ * ffree - free memory
  * @pp: str
  */
 void ffree(char **pp)
@@ -32,7 +32,7 @@ void ffree(char **pp)
 }
 
 /**
- * _realloc - reallocates
+ * _realloc - reallocate memory for malloc-alloc strings
  * @ptr: ptr
  * @old_size: old size
  * @new_size: new size
