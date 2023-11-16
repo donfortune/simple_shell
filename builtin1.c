@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _myhistory - history
+ * _myhistory - func used to print history
  * @info: argument
  *  Return: Always 0
  */
@@ -12,7 +12,7 @@ int _myhistory(info_t *info)
 }
 
 /**
- * unset_alias - alias
+ * unset_alias - func used to unset an alais var
  * @info:  struct
  * @str: string
  *
@@ -35,7 +35,7 @@ int unset_alias(info_t *info, char *str)
 }
 
 /**
- * set_alias - alias
+ * set_alias - func used to set an alias var
  * @info: struct
  * @str: string
  *
@@ -56,7 +56,7 @@ int set_alias(info_t *info, char *str)
 }
 
 /**
- * print_alias - prints alias
+ * print_alias - used to print alias
  * @node: node
  *
  * Return: Always 0
