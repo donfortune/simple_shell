@@ -19,7 +19,7 @@ int _strlen(char *s)
 }
 
 /**
- * _strcmp - compare str
+ * _strcmp - compare two str to see if the same.
  * @s1: first str
  * @s2: second str
  *
@@ -41,7 +41,7 @@ int _strcmp(char *s1, char *s2)
 }
 
 /**
- * starts_with - str
+ * starts_with - string is a substring or another or not
  * @haystack: str to search
  * @needle: str to use as base
  *
@@ -56,7 +56,7 @@ char *starts_with(const char *haystack, const char *needle)
 }
 
 /**
- * _strcat - concatenates
+ * _strcat - concatenates two strings
  * @dest: dest
  * @src: src
  *
