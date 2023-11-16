@@ -1,11 +1,11 @@
 #include "main.h"
-
 /**
  * interactive - interactive mode
  * @info: struct 
  *
  * Return: 1 if interactive mode, 0 otherwise
  */
+
 int interactive(info_t *info)
 {
 	return (isatty(STDIN_FILENO) && info->readfd <= 2);
@@ -26,9 +26,9 @@ int is_delim(char c, char *delim)
 }
 
 /**
- *_isalpha -  alphabetic character
- *@c: character
- *Return: 1 if c is alphabetic, 0 otherwise
+ * _isalpha -  alphabetic character
+ * @c: character
+ * Return: 1 if c is alphabetic, 0 otherwise
  */
 
 int _isalpha(int c)
@@ -40,9 +40,9 @@ int _isalpha(int c)
 }
 
 /**
- *_atoi - converts a string to an integer
- *@s: string 
- *Return: 0 if string
+ * _atoi - convert a string to an integer
+ * @s: string 
+ * Return: 0 if string
  */
 
 int _atoi(char *s)
