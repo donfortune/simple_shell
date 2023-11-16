@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * is_cmd - exec command
+ * is_cmd - exec command if it exists
  * @info: info
  * @path: path
  *
@@ -43,7 +43,7 @@ char *dup_chars(char *pathstr, int start, int stop)
 }
 
 /**
- * find_path - path
+ * find_path -  find cmp absolute path
  * @info: info
  * @pathstr: tpath str
  * @cmd: command
