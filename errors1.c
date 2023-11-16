@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _erratoi - cconvert
+ * _erratoi - convert char to int
  * @s: str
  * Return: 0
  */
@@ -28,7 +28,7 @@ int _erratoi(char *s)
 }
 
 /**
- * print_error - prints
+ * print_error - prints error
  * @info: arg
  * @estr: str
  * Return: 0
@@ -120,7 +120,7 @@ char *convert_number(long int num, int base, int flags)
 }
 
 /**
- * remove_comments - fremove comments
+ * remove_comments - remove comments from buf
  * @buf: add
  *
  * Return: Always 0;
