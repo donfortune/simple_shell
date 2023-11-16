@@ -90,7 +90,7 @@ ssize_t get_input(info_t *info)
 }
 
 /**
- * read_buf - buf
+ * read_buf - buf to read from
  * @info: param
  * @buf: buf
  * @i: size
@@ -110,7 +110,7 @@ ssize_t read_buf(info_t *info, char *buf, size_t *i)
 }
 
 /**
- * _getline - gets
+ * _getline - gets cmd line input.
  * @info: param
  * @ptr: add
  * @length: length
