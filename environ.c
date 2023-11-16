@@ -12,7 +12,7 @@ int _myenv(info_t *info)
 }
 
 /**
- * _getenv - get env
+ * _getenv - get env var
  * @info: Struct
  * @name: name
  * Return: the value
@@ -33,7 +33,7 @@ char *_getenv(info_t *info, const char *name)
 }
 
 /**
- * _mysetenv - env var
+ * _mysetenv - set env var
  * @info: Struct
  *  Return: Always 0
  */
@@ -70,7 +70,7 @@ int _myunsetenv(info_t *info)
 }
 
 /**
- * populate_env_list - list
+ * populate_env_list - add to env list
  * @info: struct
  * Return: Always 0
  */
