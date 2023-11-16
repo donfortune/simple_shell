@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * get_history_file - get hostory
+ * get_history_file - get history
  * @info: param
  *
  * Return: return
@@ -103,7 +103,7 @@ int read_history(info_t *info)
 }
 
 /**
- * build_history_list - keep hostory
+ * build_history_list - keep history
  * @info: Struct
  * @linecount: count
  *
