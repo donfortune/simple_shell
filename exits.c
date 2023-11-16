@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- **_strncpy - str
+ **_strncpy - str to copy
  *@dest: dest
  *@src: src
  *@n: argument
@@ -31,10 +31,10 @@ char *_strncpy(char *dest, char *src, int n)
 }
 
 /**
- **_strncat - str
+ **_strncat - concatenate string together
  *@dest: first string
  *@src: second string
- *@n: argu
+ *@n: no of str
  *Return: return
  */
 char *_strncat(char *dest, char *src, int n)
@@ -58,7 +58,7 @@ char *_strncat(char *dest, char *src, int n)
 }
 
 /**
- **_strchr - charg
+ **_strchr - check for char in a string
  *@s: str
  *@c: char
  *Return: return
