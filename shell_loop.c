@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * hsh - loop
+ * hsh - loop through cmd line print prompt infinitely
  * @info: info
  * @av: arg
  *
@@ -44,7 +44,7 @@ int hsh(info_t *info, char **av)
 }
 
 /**
- * find_builtin - command
+ * find_builtin - find builtin command nad execute implementation
  * @info: info
  * Return: return
  */
@@ -116,7 +116,7 @@ void find_cmd(info_t *info)
 }
 
 /**
- * fork_cmd - command
+ * fork_cmd - create child env for cmd to run in
  * @info: info
  *
  * Return: void
